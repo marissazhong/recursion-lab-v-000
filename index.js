@@ -8,6 +8,10 @@ function printString(str) {
 }
 
 function reverseString(str) {
-  let result = "";
+  if(str.length == 1) {
+    return str;
+  } else {
+    return str.slice(-1) + reverseString(str.slice(:-1));
+  }
   
 }
