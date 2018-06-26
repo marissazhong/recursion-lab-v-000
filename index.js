@@ -26,3 +26,7 @@ function isPalindrome(str) {
     }
   }
 }
+
+function addUpTo(array, index) {
+  
+}
