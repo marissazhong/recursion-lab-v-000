@@ -13,5 +13,17 @@ function reverseString(str) {
   } else {
     return str.slice(-1) + reverseString(str.slice(0,-1));
   }
+}
 
+function isPalindrome(str) {
+  if(str.length <= 1) {
+    return true;
+  } else {
+    if (str[0] == str.slice(-1)) {
+      return reverseString(str.slice(1,-1));
+    } else {
+      return false;
+    }
+
+  }
 }
