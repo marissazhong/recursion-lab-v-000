@@ -35,3 +35,5 @@ function addUpTo(array, index) {
     return array[0] + addUpTo(array[1,array.length-1])
   }
 }
+
+addUpTo([1,2,3,4],2)
