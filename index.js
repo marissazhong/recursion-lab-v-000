@@ -28,5 +28,8 @@ function isPalindrome(str) {
 }
 
 function addUpTo(array, index) {
-  
+  let sum = 0;
+  if (index == 0){
+
+  }
 }
