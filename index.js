@@ -27,11 +27,12 @@ function isPalindrome(str) {
   }
 }
 
-function addUpTo(array, index) {
-  if (array.length == 1){
-    return array[0]
+function addUpTo(arr, index) {
+  if (arr.length == 1){
+    return arr[0]
   } else {
-    return array[0] + addUpTo(array[1,index])
+    index--;
+    return arr[0] + addUpTo(arr[1,index])
   }
 }
 
