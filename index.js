@@ -36,5 +36,10 @@ function addUpTo(arr, index) {
 }
 
 function maxOf(arr) {
-  
+  let max = Number.NEGATIVE_INFINITY;
+  if (arr.length == 0) {
+    return max;
+  } else {
+    if arr[0] > max
+  }
 }
