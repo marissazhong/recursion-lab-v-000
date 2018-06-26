@@ -35,4 +35,4 @@ function addUpTo(array, index) {
   }
 }
 
-addUpTo([1,2,3,4],2)
+console.log(addUpTo([1,2,3,4],2))
