@@ -28,7 +28,7 @@ function isPalindrome(str) {
 }
 
 function addUpTo(arr, index) {
-  if (arr.length === 1){
+  if (arr.length == 1){
     return arr[0]
   } else {
     index--;
