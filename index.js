@@ -39,9 +39,9 @@ function maxOf(arr) {
   if (arr.length == 1) {
     return arr[0];
   } else {
-    console.log(max)
-    if (arr[0] > max) {
-      max = arr[0];
+    console.log(arr[0])
+    if (arr[0] > arr[1]) {
+      arr[0], arr[1] = arr[1], arr[0];
     }
     return maxOf(arr.slice(1,arr.length+1));
   }
