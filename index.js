@@ -45,5 +45,3 @@ function maxOf(arr) {
     return maxOf(arr.slice(1,arr.length+1));
   }
 }
-
-console.log(maxOf([1,2,5,4,3]));
