@@ -20,7 +20,7 @@ function isPalindrome(str) {
     return true;
   } else {
     if (str[0] == str.slice(-1)) {
-      return reverseString(str.slice(1,-1));
+      return isPalindrome(str.slice(1,-1));
     } else {
       return false;
     }
