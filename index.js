@@ -32,6 +32,7 @@ function addUpTo(arr, index) {
     return arr[0];
   } else {
     return arr[0] + addUpTo(arr[1,index],index-1);
+    console.log(index)
   }
 }
 
