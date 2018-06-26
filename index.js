@@ -31,8 +31,7 @@ function addUpTo(arr, index) {
   if (arr.length == 1){
     return arr[0]
   } else {
-    index--;
-    return arr[0] + addUpTo(arr[1,index+1])
+    return arr[0] + addUpTo(arr[1,index],index-1)
   }
 }
 
