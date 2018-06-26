@@ -42,7 +42,7 @@ function maxOf(arr) {
   } else {
     //console.log(arr[0])
     if (arr[0] > arr[1]) {
-      arr[0], arr[1] = arr[1], arr[0];
+      arr[1] = arr[0];
     }
     return maxOf(arr.slice(1,arr.length+1));
   }
