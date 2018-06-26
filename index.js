@@ -41,7 +41,8 @@ function maxOf(arr) {
     return max;
   } else {
     if (arr[0] > max) {
-      
+      max = arr[0];
     }
+    return maxOf(arr.slice(1,arr.length+1));
   }
 }
