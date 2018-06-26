@@ -32,7 +32,7 @@ function addUpTo(arr, index) {
   if(arr.length == 1){
     return arr[0];
   } else {
-    return arr[0] + addUpTo(arr[1,index],index-1);
+    return arr[0] + addUpTo(arr.slice(1,index+1),index-1);
     //console.log(index);
   }
 }
