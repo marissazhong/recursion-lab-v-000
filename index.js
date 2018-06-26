@@ -32,7 +32,7 @@ function addUpTo(arr, index) {
     return arr[0]
   } else {
     index--;
-    return arr[index] + addUpTo(arr[0,index+1])
+    return arr[index+1] + addUpTo(arr[0,index+1])
   }
 }
 
