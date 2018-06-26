@@ -27,4 +27,4 @@ function isPalindrome(str) {
   }
 }
 
-console.log(isPalindrome(abcba));
+console.log(isPalindrome("abcba"));
