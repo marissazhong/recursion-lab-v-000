@@ -24,6 +24,5 @@ function isPalindrome(str) {
     } else {
       return false;
     }
-
   }
 }
