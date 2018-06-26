@@ -13,5 +13,5 @@ function reverseString(str) {
   } else {
     return str.slice(-1) + reverseString(str.slice(:-1));
   }
-  
+
 }
