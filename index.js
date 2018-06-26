@@ -11,7 +11,7 @@ function reverseString(str) {
   if(str.length == 1) {
     return str;
   } else {
-    return str.slice(-1) + reverseString(str.slice(0:-1));
+    return str.slice(-1) + reverseString(str.slice(0,-1));
   }
 
 }
