@@ -32,7 +32,7 @@ function addUpTo(array, index) {
   if (index == 0){
     return array[0] + sum
   } else {
-    return array[0] + addUpTo(array[1,array.length-1])
+    return array[0] + addUpTo(array[1,index])
   }
 }
 
