@@ -28,11 +28,12 @@ function isPalindrome(str) {
 }
 
 function addUpTo(arr, index) {
+  console.log(arr);
   if(arr.length == 1){
     return arr[0];
   } else {
     return arr[0] + addUpTo(arr[1,index],index-1);
-    console.log(index)
+    console.log(index);
   }
 }
 
