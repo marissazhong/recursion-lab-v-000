@@ -56,3 +56,5 @@ function includesNumber(arr, element) {
   }
   return false;
 }
+
+console.log(includesNumber([1,2,3],2));
