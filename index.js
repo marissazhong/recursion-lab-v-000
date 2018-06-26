@@ -46,4 +46,4 @@ function maxOf(arr) {
   }
 }
 
-console.log(maxOf([1,2,3,4,3]));
+console.log(maxOf([1,2,5,4,3]));
